@@ -18,7 +18,8 @@ public class GUI implements ActionListener {
         frame.setVisible(true);
     }
     public static void main(String args[]) {
-        new GUI();
+        JFrame login = new Login("Gain Tracker - Login");
+        login.setVisible(true);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
